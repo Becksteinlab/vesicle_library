@@ -1,0 +1,27 @@
+#include "dry_martini_v2.1.itp"
+#include "dry_martini_v2.1_lipids.itp"
+#include "dry_martini_v2.1_cholesterol.itp"
+
+[ system ]
+vesicle
+
+; python /nfs/homes/ikenney/Projects/vesicle_library/scripts/martini_vesicle_builder.py 25 DPPC
+;
+; vesicle properties:
+;   initial radius:                  25.000 nm (expect ~10 to ~40% shrinking)
+;   ideal weighted thicknesses:      2.050 + 2.050 = 4.099 nm, using "PO4" and "PO4" as marker beads (inner|outer|bilayer)
+;   ideal weighted areas per lipid:  0.615 | 0.615 nm^2 (inner|outer leaflets)
+;   leaflet composition:
+;     inner:
+;       DPPC:        14724 molecules (100.0%)
+;     outer:
+;       DPPC:        19960 molecules (100.0%)
+;   system compostion:
+;     DPPC:          34684 molecules (100.0%)
+;     cholesterol:       0 molecules (0.0%)
+
+[ molecules ]
+; inner leaflet
+DPPC	14724
+; outer leaflet
+DPPC	19960
