@@ -3,6 +3,8 @@
 Vesicles with the [Dry Martini](http://www.cgmartini.nl/index.php/299-dry-martini-beta) forcefield [1], constructed in 
 varying sizes, ranging from 10 nm to 30 nm radius. Results are summarized in a technical report [2]. All data are made available under the CC-BY license.
 
+A set of large vesicle systems, ranging in size from 1.75 M to 10 M particles are made available under doi:[10.6084/m9.figshare.3406708](https://doi.org/10.6084/m9.figshare.3406708).
+
 1. Clément Arnarez, Jaakko J. Uusitalo, Marcelo F. Masman, Helgi I. Ingólfsson, Djurre H. de Jong, Manuel N. Melo, 
 Xavier Periole, Alex H. de Vries, and Siewert J. Marrink.
 Dry Martini, a Coarse-Grained Force Field for Lipid Membrane Simulations with Implicit Solvent. J. Chem. Theory Comput.,
